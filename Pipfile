@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+synchronized-set = "*"
+pandas = "*"
+numpy = "*"
+lightgbm = "*"
+scikit-learn = "*"
+catboost = "*"
+xgboost = "*"
+tqdm = "*"
+matplotlib = "*"
+scipy = "*"
+seaborn = "*"
+
+[dev-packages]
+ipykernel = "*"
+tensorboard = "*"
+
+[requires]
+python_version = "3.10"
